@@ -1,0 +1,967 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+
+}
+
+.flexbox {
+    display: flex;
+    align-items: center;
+}
+
+.header img {
+    /* border: 1px solid red; */
+    height: 38px;
+}
+
+.header {
+    /* border: 1px solid red; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: space-between;
+    padding: 0px 20px;
+    font-size: 14px;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    z-index: 1;
+}
+
+.header-wrapper {
+    /* border: 1px solid red; */
+    justify-content: space-between;
+
+}
+
+.navigation-bar li {
+    /* border: 1px solid red; */
+    /* width: 100%; */
+    justify-content: space-around;
+    margin: 0px 8px;
+    padding: 20px 10px;
+}
+
+.navigation-bar li:hover{
+    background-color: #04AA6D;
+    color: white;
+}
+
+.nav-search {
+    border: 1px solid gray;
+    border-radius: 25px;
+    width: 28%;
+    /* height: 10%; */
+    padding: 4px 10px;
+    justify-content: space-between;
+}
+
+.nav-search input {
+    padding: 5px;
+    width: 80%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+
+}
+
+.container-login-part {
+    /* border: 1px solid red; */
+    width: 40%;
+    /* padding: 10px; */
+    justify-content: flex-end;
+}
+
+.r {
+    color: #9e67d2;
+}
+
+.container-login-part a {
+    /* border: 1px solid red; */
+    border-radius: 50px;
+    padding: 5px;
+    margin-left: 5px;
+    color: black;
+    text-decoration: none;
+}
+
+.container-login-part a:hover{
+    background-color: #f0f2f5;
+}
+
+.container-login-part button {
+    border: none;
+    border-radius: 20px;
+    padding: 12px 20px;
+    width: 93px;
+}
+
+.container-login-part button:hover {
+    background-color: #059862;
+    color: white;
+}
+
+.container-login-part .button-1 {
+    background-color: #04AA6D;
+    color: white;
+    position: relative;
+    left: 30px;
+}
+
+.container-login-part .button-2 {
+    background-color: #D9EEE1;
+    text-align: right;
+    width: 100px;
+}
+
+.courses-name {
+    /* border: 1px solid red; */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow: auto;
+    scrollbar-width: none;
+    font-size: 13px;
+    letter-spacing: 1px;
+    /* width: 100%; */
+    background-color: #282A35;
+    position: fixed;
+    top: 10%;
+    z-index: 1;
+}
+
+.courses-name a {
+    padding: 5px 15px;
+    text-decoration: none;
+    width: auto;
+    /* display: inline-block; */
+    color: white;
+}
+
+.courses-name a:hover {
+    background-color: black;
+}
+
+.main-container-wrapper {
+    /* border: 1px solid red; */
+    height: 100vh;
+    font-family: "Source Sans 3", sans-serif;
+}
+
+.main-part {
+    /* border: 1px solid red; */
+    padding: 20px;
+    background-image: url(./photosofw3/lynx_in_space.png), url(./photosofw3/background_in_space.gif);
+    background-repeat: no-repeat, repeat;
+    background-position: 90% 60%, center center;
+    padding-top: 140px;
+    padding-bottom: 90px;
+    background-color: #282A35;
+}
+
+.main-child {
+    /* border: 1px solid red; */
+    width: 70%;
+    margin: 10px auto;
+    text-align: center;
+    /* padding: 20px; */
+}
+
+.heading-main-front {
+    /* border: 1px solid red; */
+    font-size: 70px;
+    color: white;
+}
+
+.heading-second-part {
+    /* border: 1px solid red; */
+    margin: 20px 10px;
+    padding: 10px;
+    font-size: 23px;
+    color: #FFF4A3;
+}
+
+.search-heading-input-part {
+    /* border: 1px solid red; */
+    justify-content: center;
+
+}
+
+.input-part-child {
+    /* border: 1px solid red; */
+    border-radius: 50px 0px 0px 50px;
+    background-color: #fff;
+    width: 50%;
+    padding: 5px;
+}
+
+.input-part-child input {
+    background-color: #fff;
+    border: none;
+    outline: none;
+    width: 90%;
+    padding: 10px;
+    margin-left: 5px;
+    font-size: 15px;
+}
+
+.button-search {
+    background-color: #04AA6D;
+    color: #fff;
+    border-radius: 0px 50px 50px 0px;
+    border: none;
+    padding: 15px;
+    width: 13%;
+}
+
+.heading-third-part {
+    margin: 30px;
+}
+
+.heading-third-part a {
+    /* border: 1px solid red; */
+    font-size: 23px;
+    color: white;
+    padding: 10px;
+}
+
+.heading-third-part a:hover {
+    color: #FFF4A3;
+}
+
+.second-container {
+    /* border: 1px solid red; */
+    background-color: #D9EEE1;
+    justify-content: center;
+    padding: 60px;
+}
+
+.html-info-wrapper {
+    /* border: 1px solid red; */
+    width: 40%;
+    height: 450px;
+    text-align: center;
+}
+
+.big-tag-heading {
+    /* border: 1px solid red; */
+    font-size: 6em;
+
+}
+
+.paragraph {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.button-all {
+    border-radius: 50px;
+    border: none;
+    width: 200px;
+    padding: 12px;
+    margin-top: 20px;
+    font-size: 1em;
+    font-weight: bold;
+cursor: pointer;
+}
+
+.html-sample-code {
+    /* border: 1px solid red; */
+    border-radius: 5px;
+    background-color: #E7E9EB;
+    width: 40%;
+    /* height: 450px; */
+    padding: 20px;
+    box-shadow: 0px 2px 10px 0px rgba(167, 166, 166, 0.5);
+
+}
+
+.heading-html-example {
+    /* border: 1px solid red; */
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+.span {
+    border-left: 5px solid #04AA6D;
+    background-color: #fff;
+    margin-top: 10px;
+    padding: 10px;
+
+}
+
+.third-container {
+    /* border: 1px solid red; */
+    background-color: #FFF4A3;
+    justify-content: center;
+    padding: 60px;
+}
+
+.fourth-container {
+    /* border: 1px solid red; */
+    background-color: #282A35;
+    justify-content: center;
+    padding: 60px;
+}
+
+.fifth-container {
+    /* border: 1px solid red; */
+    background-color: #F3ECEA;
+    justify-content: center;
+    padding: 60px;
+}
+
+.sixth-container {
+    /* border: 1px solid red; */
+    background-color: #96D4D4;
+    justify-content: center;
+    padding: 60px;
+}
+
+.boxes-wrapper-main-container {
+    /* border: 1px solid red; */
+    background-color: #282A35;
+    padding-bottom: 3%;
+}
+
+
+.boxes-inside-wrapper {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 60px 0px;
+}
+
+.box-1 {
+    /* border: 1px solid red; */
+    border-radius: 5px;
+    width: 44%;
+    padding: 2.3em;
+    text-align: center;
+    margin: 2% 0%;
+}
+
+.heading-box {
+    font-size: 3em;
+}
+
+.paragraph {
+    margin: 15px 0px;
+}
+
+
+.small-boxes-wrapper {
+    /* border: 1px solid red; */
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.bigone {
+    /* border: 1px solid red; */
+    width: 44% !important;
+    padding: 3.5% 1% !important;
+}
+
+.box-small-1 {
+    /* border: 1px solid red; */
+    border-radius: 5px;
+    text-align: center;
+    padding: 3% 1%;
+    margin: 1.5em;
+    width: 19%;
+}
+
+.single-heading {
+    font-size: 1.7em;
+}
+
+.gift-parent {
+    /* border: 1px solid red; */
+    width: 75%;
+    margin: 8% auto 2% auto;
+}
+
+
+.gift-child-heading {
+    /* border: 1px solid red; */
+    text-align: center;
+    font-size: 4em;
+    color: white;
+
+}
+
+.gift-para {
+    /* border: 1px solid red; */
+    text-align: center;
+    color: white;
+    margin: 2% 0%;
+
+}
+
+.gift-video-heading {
+    /* border: 1px solid red; */
+    padding: 1%;
+
+}
+
+.gift-child {
+    /* border: 1px solid red; */
+    background-color: #f1f1f1;
+    margin-top: 5%;
+}
+
+
+.symbol-1 {
+    /* border: 1px solid red; */
+    width: 20%;
+}
+
+.symbol-2 {
+    /* border: 1px solid red; */
+    width: 70%;
+
+}
+
+.symbol-2 input {
+    width: 90%;
+    padding: 2px;
+    border: none;
+    outline: none;
+    background-color: white;
+}
+
+.nav-gift-button button {
+    padding: 1.5%;
+    border: none;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.frontend {
+    background-color: #dfe2e6;
+}
+
+.backend:hover {
+    background-color: #dfe2e6;
+}
+
+.buttonof-frontback button {
+    padding: 1% 2%;
+    font-size: 1em;
+    font-weight: bold;
+    margin-top: 3%;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.image {
+    /* border: 1px solid red; */
+    width: 90%;
+    margin: 4% auto 0% auto;
+}
+
+.images-how {
+    /* border: 1px solid red; */
+    width: 90%;
+    margin: 5% auto;
+}
+
+.how-button {
+    /* border: 1px solid red; */
+    justify-content: center;
+    margin: 2% 0% 5% 0%;
+}
+
+.how-button button {
+    width: 23%;
+    padding: 15px;
+    border-radius: 50px;
+    border: none;
+    background-color: #04AA6D;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.how-button button:hover{
+    cursor: pointer;
+    background-color: #049761;
+}
+
+.my-learning-container {
+    background-color: #D9EEE1;
+    padding: 6% 0% 2% 0%;
+}
+
+.learning-wrapper {
+    /* border: 1px solid red; */
+    width: 75%;
+    text-align: center;
+    margin: auto;
+}
+
+.heading-of-learning {
+    font-size: 4em;
+}
+
+.learning-para {
+    font-size: 1.2em;
+    margin: 2%;
+}
+
+.become-pro-container {
+    background-color: #282A35;
+    padding: 6% 0% 2% 0%;
+}
+
+.become-wrapper {
+    /* border: 1px solid red; */
+    width: 75%;
+    text-align: center;
+    margin: auto;
+}
+
+.heading-of-become {
+    font-size: 4em;
+    color: white;
+}
+
+.para-browse {
+    /* border: 1px solid red; */
+    text-align: left;
+    width: 45%;
+    margin: 4% auto;
+}
+
+.content-browse {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: white;
+    margin: 1% 0%;
+}
+
+.content-browse i {
+    margin-right: 4%;
+}
+
+.color-pick-container {
+    /* border: 1px solid red; */
+    background-color: #F3ECEA;
+    text-align: center;
+    padding: 7%;
+}
+
+.color-wrapper img:hover{
+    cursor: pointer;
+}
+
+.color-heading {
+    /* border: 1px solid red; */
+    font-size: 4.3em;
+}
+
+.color-para {
+    font-size: 1.2em;
+    font-weight: 600;
+    margin: 2%;
+}
+
+.code-game-container {
+    /* border: 1px solid red; */
+    background-color: #96D4D4;
+    padding: 5% 0%;
+}
+
+.code-wrapper {
+    /* border: 1px solid red; */
+    text-align: center;
+}
+
+.code-wrapper img {
+    margin: 3% 0%;
+    cursor: pointer;
+}
+
+.code-heading {
+    /* border: 1px solid red; */
+    font-size: 3em;
+}
+
+.code-para {
+    /* border: 1px solid red; */
+    font-size: 2em;
+}
+
+.code-button {
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+}
+
+.code-button button {
+    width: 10.5em;
+    padding: 14px;
+    border-radius: 50px;
+    background-color: #282A35;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+    border: none;
+}
+
+.exercise-container {
+    /* border: 1px solid red; */
+    background-color: #282A35;
+    color: white;
+    text-align: center;
+    padding: 5% 0%;
+}
+
+.exercise-heading {
+    /* border: 1px solid red; */
+    font-size: 4em;
+}
+
+.two-boxes-wrapper {
+    /* border: 1px solid red; */
+    justify-content: space-around;
+}
+
+.exercise-box-1 {
+    /* border: 1px solid red; */
+    border-radius: 5px;
+    width: 42%;
+    padding: 6%;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 3%;
+    cursor: pointer;
+}
+
+
+.web-container {
+    /* border: 1px solid red; */
+    background-color: #E7E9EB;
+    padding: 5% 0%;
+    text-align: center;
+}
+
+.web-heading {
+    /* border: 1px solid red; */
+    font-size: 4em;
+}
+
+.web-para {
+    /* border: 1px solid red; */
+    font-size: 1.2em;
+    font-weight: 600;
+    padding: 2%;
+}
+
+.web-image {
+    /* border: 1px solid red; */
+    width: 80%;
+    margin: auto;
+}
+
+.web-image img {
+    width: 100%;
+    cursor: pointer;
+}
+
+.web-button button {
+    /* border: 1px solid red; */
+    width: 30em;
+    padding: 1em;
+    margin: 3% 0%;
+    border-radius: 50px;
+    background-color: #282A35;
+    color: white;
+    font-size: 1.1em;
+    font-weight: bold;
+    border: none;
+}
+
+.web-button button:hover,.code-button button:hover{
+    background-color: black;
+    cursor: pointer;
+}
+
+.career-container {
+    /* border: 1px solid red; */
+    padding: 5% 5%;
+    background-color: #282A35;
+}
+
+.carrer-heading-1 {
+    /* border: 1px solid red; */
+    font-size: 4em;
+    color: #FFC0C7;
+    margin: 3% 0%;
+    padding: 2%;
+}
+
+.carrer-heading-2 {
+    /* border: 1px solid red; */
+    font-size: 3em;
+    color: #FFC0C7;
+    margin: 3% 0%;
+    padding: 2%;
+}
+
+.career-container button {
+    /* border: 1px solid red; */
+    padding: 1.5%;
+    width: 9.5em;
+    border-radius: 50px;
+    font-size: 1.2em;
+    color: white;
+    background-color: #04AA6D;
+   border: none;
+}
+
+.career-container button:hover{
+    background-color: #049761;
+    cursor: pointer;
+}
+
+#w3_cert_badge_default {
+    position: absolute;
+    right: 60px;
+    width: 220px;
+    transform: rotate(10deg);
+   
+}
+
+#w3_cert_arrow_default{
+position: absolute;
+    right: 230px;
+    width: 220px;
+    transform: rotate(10deg);
+    z-index: 1;
+}
+
+.section-container {
+    /* border: 1px solid red; */
+    padding: 5% 0%;
+    text-align: center;
+}
+
+.section-image-container {
+    /* border: 1px solid red; */
+    background-color: #f1f1f1;
+    width: 1000px;
+    margin: auto;
+    padding-bottom: 2%;
+}
+
+/* ================slide show part================ */
+.mySlides {
+    display: none
+}
+
+img {
+    vertical-align: middle;
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.prev{
+    left: 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+/* On smaller screens, decrease text size */
+/* @media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+} */
+
+.empty-buttoun {
+    /* border: 1px solid red; */
+    width: 50px;
+    height: 80px;
+    margin: auto;
+    background-color: #282A35;
+}
+
+
+.section-button button {
+    border: none;
+    border-radius: 25px;
+    width: 30em;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 20px;
+    background-color: #282A35;
+    color: white;
+    margin-bottom: 2%;
+}
+
+.section-button button:hover {
+    background-color: #04AA6D;
+    cursor: pointer;
+}
+
+
+footer {
+    background-image: url(./photosofw3/lynx_landing.png), url(./photosofw3/background_in_space.gif);
+    background-repeat: no-repeat,repeat;
+    background-position: right bottom, center center;
+    background-color: #282A35;
+    padding: 5% 0% 25% 0%;
+}
+
+.footer-part-1 {
+    margin: 2% 8%;
+}
+
+.footer-part-1 img {
+    width: 50px;
+}
+
+.list-name {
+    /* border: 1px solid red; */
+    width: 75%;
+    color: #FFF4A3;
+    font-weight: 600;
+    justify-content: space-between;
+    margin-left: 4%;
+    cursor: pointer;
+}
+
+.tutorial-wrapper {
+    /* border: 1px solid red; */
+    color: lightgrey;
+    justify-content: space-evenly;
+}
+
+.footer-part-2 {
+    /* border: 1px solid red; */
+    width: 15%;
+}
+
+.footer-part-2 h4 {
+    font-size: 1.2em;
+    margin: 5% 0%;
+}
+
+.tutorial-list,
+.icons,
+.icon-para {
+    font-size: 0.8em;
+    color: lightgrey;
+}
+
+.icons {
+    width: 30%;
+    justify-content: space-between;
+    margin: 5% 0% 0% 8%;
+    cursor: pointer;
+}
+
+.icons i:hover,.tutorial-list li:hover{
+    color: #FFF4A3;
+    cursor: pointer;
+}
+
+.icons p {
+    font-size: 1.2em;   
+}
+
+.icons p:hover,.list-name li:hover{
+    color: #FFF4A3;
+    text-decoration: underline;
+}
+
+.icon-para {
+    width: 50%;
+    margin-left: 8%;
+}
+
+.icon-para p{
+    margin-top: 2%;
+    
+}
